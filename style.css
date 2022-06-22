@@ -1,0 +1,157 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body{
+    background-image: url(images/bg-desktop.svg);
+    background-color: hsl(257, 40%, 49%);
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.box{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.img{
+    width: 600px;
+    margin-top: 50px;
+}
+
+.text{
+    margin-left: 50px;
+    margin-top: 80px;
+
+}
+
+h1{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+.btn{
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+    color: hsl(257, 40%, 49%);
+    border: none;
+}
+
+.btn:hover{
+    background-color: hsl(300, 69%, 71%);
+}
+
+.logo{
+    margin-left: 100px;
+}
+
+#logo{
+    margin-top: 25px;
+    width: 200px;
+}
+
+
+.social{
+    float: right;
+}
+
+.fb,.tweet,.insta{
+    width: 50px;
+    height: 10px;
+}
+
+.fb{
+    height: 20px;
+    width: 20px;
+    align-items: center;
+    width: 50px;
+
+
+}
+.fb:hover{
+    color: hsl(300, 69%, 71%);;
+    /* border-radius: 50%; */
+    
+}
+
+
+.tweet{
+    height: 20px;
+    width: 20px;
+    align-items: center;
+    width: 50px;
+
+
+}
+.tweet:hover{
+    color: hsl(300, 69%, 71%);;
+    /* border-radius: 50%; */
+    
+}
+
+.insta{
+    height: 20px;
+    width: 20px;
+    align-items: center;
+    width: 50px;
+
+
+}
+.insta:hover{
+    color: hsl(300, 69%, 71%);;
+    /* border-radius: 50%; */
+    
+}
+
+
+@media screen and (max-width:600px) {
+    .box{
+        display: grid;
+        grid-template-columns:auto;
+        
+    }
+    .img{
+        width: 400px;
+        margin-left: -50px;
+    }
+    .text{
+        width: 400px;
+        margin-left: -50px;
+        text-align: center;
+    }
+
+    .social{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 280px;
+        
+    }
+
+    .btn{
+        width: 200px;
+    }
+
+    .logo{
+       margin-left: 40px; 
+    }
+
+    .Footer{
+        text-align: center;
+        margin-right: 100px;
+    }
+}
+
+.Footer { font-size: 11px;
+     text-align: center; 
+     margin-left: 150px;
+     
+    }
+ .Footer a { color: hsl(300, 69%, 71%); }  
